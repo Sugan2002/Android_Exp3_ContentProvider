@@ -115,6 +115,11 @@ public class MainActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+</br>
+</br>
+</br>
+
+
 ### AndroidManifest.xml
 ```java
 <?xml version="1.0" encoding="utf-8"?>
@@ -150,7 +155,15 @@ public class MainActivity extends AppCompatActivity {
 
 ## OUTPUT:
 ![o1](https://user-images.githubusercontent.com/77089743/167104309-45158637-85bc-4d17-a46d-250cac5db4f5.jpeg)
+</br>
+</br>
+</br>
+
 ![o2](https://user-images.githubusercontent.com/77089743/167104324-74399734-2fd0-43e0-849e-7ff25a8c4ce3.jpeg)
+</br>
+</br>
+</br>
+
 ![o3](https://user-images.githubusercontent.com/77089743/167104352-10aac091-2706-4eed-a562-1d5ec6fefed5.jpeg)
 
 ## RESULT
