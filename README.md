@@ -1,4 +1,4 @@
-# Ex.No:3 Create Your Own Content Providers to get Contacts details.
+# <p align="center"> Ex.No-3 Create Your Own Content Providers to get Contacts details</P>
 
 
 ## AIM:
@@ -76,10 +76,13 @@ public class MainActivity extends AppCompatActivity {
         Log.i("CONTACT_PROVIDER_DEMO","TOTAL # of Contacts ::: "+ cursor.getCount());
         if (cursor.getCount() > 0) {
             while(cursor.moveToNext()){
-                @SuppressLint("Range") String contactName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-                @SuppressLint("Range") String contactNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                @SuppressLint("Range") String contactName = cursor.getString(cursor.getColumnIndex
+                (ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                @SuppressLint("Range") String contactNumber = cursor.getString(cursor.getColumnIndex
+                (ContactsContract.CommonDataKinds.Phone.NUMBER));
 
-                Log.i("CONTACT_PROVIDER_DEMO","Contact Name :::  "+ contactName+"   PH #   :::"+ contactNumber);
+                Log.i("CONTACT_PROVIDER_DEMO","Contact Name :::  "+ contactName+"   PH #   :::"+ 
+                contactNumber);
             }
         }
     }
