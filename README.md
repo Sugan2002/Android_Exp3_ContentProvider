@@ -1,5 +1,6 @@
-## Date-12/04/2022
-# <p align="center"> Ex.No-3 Create Your Own Content Providers to get Contacts details</P>
+## EX NO : 03
+## Date  : 12/04/2022
+# <p align="center"> Create Your Own Content Providers to get Contacts details</P>
 
 
 ## AIM:
